@@ -1,20 +1,20 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Link } from './Link';
+import { Links } from '../../../components/atoms/links/Link';
 
 
 
 export default {
   title: 'Example/Atoms/Link',
-  component: Link,
+  component: Links,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-} as ComponentMeta<typeof Link>;
+} as ComponentMeta<typeof Links>;
 
 //create a template of how args are map to rendering
 
-const Template: ComponentStory<typeof Link> = (args) => <Link {...args} />;
+const Template: ComponentStory<typeof Links> = (args) => <Links {...args} />;
 
 //each story reuses that template
 export const TextLink = Template.bind({});

@@ -17,7 +17,7 @@ export const Heading = ({
 }: HeadProps) => {
 //   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-    <h2>{text}</h2>
+    <h1 className='h1'>{text}</h1>
     
   );
 };

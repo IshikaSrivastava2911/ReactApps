@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 30%;
+    /* height: 20%; */
+    /* height: 100%; */
+}
+.inline{
+    display: flex;
+    justify-content: space-between;
+}
+.inline-center{
+    display: flex;
+    text-align: center;
+}
+.TextLink{
+    text-align: center;
+    margin-bottom: 20px;
+}

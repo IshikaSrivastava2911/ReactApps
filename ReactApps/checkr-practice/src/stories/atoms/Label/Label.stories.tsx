@@ -2,14 +2,15 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 // import { Button } from './Button';
-import { Label } from './Label';
+import { Label } from '../../../components/atoms/labels/Label';
 
 export default {
   title: 'Example/Atoms/Label',
   component: Label,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+  
+  // argTypes: {
+  //   backgroundColor: { control: 'color' },
+  // },
 } as ComponentMeta<typeof Label>;
 
 //create a template of how args are map to rendering

@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 
-import { Icon } from "./Icon";
+import { Icon } from "../../../components/atoms/image/Icon";
 
 export default {
     title: 'Example/Atoms/Icon',
@@ -20,5 +20,6 @@ export const Image2 = Template.bind({})
 Image2.args ={
     src :'assets/icon.png',
 
-    alt:"Icon for landing page"
+    alt:"Icon for landing page",
+    
 }

@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 
-import Input from "./Input";
+import Input from "../../../components/atoms/input/Input";
 
 export default {
     title: 'Example/Atoms/Input',

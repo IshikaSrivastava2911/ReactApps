@@ -1,19 +1,16 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { Button2 } from './Button';
+import { Buttons } from '../../../components/atoms/button/Button';
 
 export default {
   title: 'Example/Atoms/Button/IconBtn',
-  component: Button2,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
-} as ComponentMeta<typeof Button2>;
+  component: Buttons,
+} as ComponentMeta<typeof Buttons>;
 
 //create a template of how args are map to rendering
 
-const Template: ComponentStory<typeof Button2> = (args) => <Button2 {...args} />;
+const Template: ComponentStory<typeof Buttons> = (args) => <Buttons {...args} />;
 
 //Template.bind({}) is a standard JavaScript technique for making a copy of a function. We copy the Template so each exported story can set its own properties on it.
 //each story reuses that template

@@ -1,25 +1,24 @@
+import { FormLabel } from '@mui/material';
 import React from 'react';
 
-interface LinkProps {
-  text:string;
+interface LabelProps {
+  label:string;
   backgroundColor?: string;
-  href: string;
     // size?:string;
 }
 
 /**
  * Primary UI component for user interaction
  */
-export const Link = ({
-  text,
-  href,
+export const Label = ({
+  label,
   backgroundColor,
 //   size="small",
   ...props
-}: LinkProps) => {
+}: LabelProps) => {
 //   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-
-    <a href={href} >{text}</a>
+    <FormLabel>{label}</FormLabel>
+    // <label >{label}</label>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 // import { Button } from './Button';
-import { Heading } from './Heading';
+import { Heading } from '../../../components/atoms/headings/Heading';
 
 export default {
   title: 'Example/Atoms/Heading',

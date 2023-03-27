@@ -11,7 +11,8 @@ interface ImgProps{
 export const Icon = (
     {
         src,
-        alt
+        alt,
+    
     }: ImgProps
 ) => {
 //   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';

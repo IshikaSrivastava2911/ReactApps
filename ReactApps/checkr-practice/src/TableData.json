@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+      "name": "Liam Johnson",
+      "adjudication": "engage",
+      "status": "clear",
+      "location": "Seattle, WA",
+      "dateOfJoining": "2021-02-15"
+    },
+    {
+        "id": 2,
+      "name": "Ava Hernandez",
+      "adjudication": "adverse action",
+      "status": "consider",
+      "location": "Miami, FL",
+      "dateOfJoining": "2020-06-28"
+    },
+    {
+        "id": 3,
+      "name": "Oliver Davis",
+      "adjudication": "engage",
+      "status": "clear",
+      "location": "Boston, MA",
+      "dateOfJoining": "2019-11-12"
+    },
+    {
+        "id": 4,
+      "name": "Isabella Rodriguez",
+      "adjudication": "adverse action",
+      "status": "consider",
+      "location": "Los Angeles, CA",
+      "dateOfJoining": "2022-01-22"
+    },
+    {
+        "id": 5,
+      "name": "William Lee",
+      "adjudication": "engage",
+      "status": "clear",
+      "location": "Austin, TX",
+      "dateOfJoining": "2018-03-07"
+    },
+    {
+        "id": 6,
+      "name": "Sophia Martinez",
+      "adjudication": "adverse action",
+      "status": "consider",
+      "location": "Chicago, IL",
+      "dateOfJoining": "2021-08-30"
+    },
+    {
+        "id": 7,
+      "name": "Ethan Taylor",
+      "adjudication": "engage",
+      "status": "clear",
+      "location": "San Francisco, CA",
+      "dateOfJoining": "2017-09-01"
+    },
+    {
+        "id": 8,
+      "name": "Emma Brown",
+      "adjudication": "adverse action",
+      "status": "consider",
+      "location": "New York, NY",
+      "dateOfJoining": "2020-05-14"
+    },
+    {
+        "id": 9,
+      "name": "Noah Jones",
+      "adjudication": "engage",
+      "status": "clear",
+      "location": "Phoenix, AZ",
+      "dateOfJoining": "2019-01-11"
+    },
+    {
+        "id": 10,
+      "name": "Mia Wilson",
+      "adjudication": "adverse action",
+      "status": "consider",
+      "location": "Denver, CO",
+      "dateOfJoining": "2022-02-10"
+    },
+    {
+        "id": 11,
+      "name": "Jackson Taylor",
+      "adjudication": "engage",
+      "status": "clear",
+      "location": "Portland, OR",
+      "dateOfJoining": "2018-08-25"
+    },
+    {
+        "id": 12,
+      "name": "Sophia Davis",
+      "adjudication": "adverse action",
+      "status": "consider",
+      "location": "Houston, TX",
+      "dateOfJoining": "2021-06-02"
+    },
+    {
+        "id": 13,
+      "name": "Olivia Garcia",
+      "adjudication": "engage",
+      "status": "clear",
+      "location": "Philadelphia, PA",
+      "dateOfJoining": "2017-05-16"
+    }
+]

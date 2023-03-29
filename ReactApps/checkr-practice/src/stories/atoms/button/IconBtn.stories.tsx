@@ -3,9 +3,15 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import { Buttons } from '../../../components/atoms/button/Button';
 
+
 export default {
   title: 'Example/Atoms/Button/IconBtn',
   component: Buttons,
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary'],
+      control: { type: 'radio' },
+    }}
 } as ComponentMeta<typeof Buttons>;
 
 //create a template of how args are map to rendering
